@@ -11,8 +11,8 @@ llm = ChatOpenRouter(
     temperature=0
 )
 
-response = llm.invoke("Hi")
-print(response.content)
+# response = llm.invoke("Hi")
+# print(response.content)
 
 def analyze_resume(resume_text, jd_text):
     class ResumeAnalysis(BaseModel):
