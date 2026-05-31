@@ -75,10 +75,9 @@ def study_plan_based_on_skill_gaps(
         )
 
     class StudyPlan(BaseModel):
-        study_plan: Dict[str, DayPlan] = Field(
+        study_plan: List[DayPlan] = Field(
             description="""
-            Dictionary where keys are day_1, day_2, day_3 ... day_N.
-            N must equal the number of study days provided.
+            List of day plans.
             """
         )
 
