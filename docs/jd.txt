@@ -1,0 +1,30 @@
+About the job
+Job Description
+
+ Define the architecture, standards, and engineering direction of enterprise Generative AI platforms and applications. 
+ Architect scalable, secure, and cost-efficient enterprise GenAI platforms, AI infrastructure, and reusable AI services. 
+ Establish standards and best practices for LLMOps, RAG pipelines, agent orchestration, prompt management, AI governance, model evaluation, and AI observability. 
+ Lead development of enterprise AI copilots, conversational BI systems, AI-powered customer service assistants, recommendation and personalization engines, knowledge retrieval systems, and autonomous workflow agents. 
+ Build advanced orchestration workflows involving multiple AI agents and tools, and drive production deployment and scaling of GenAI systems. 
+ Mentor ML and GenAI engineers across the AI Excellence Team and partner with business leaders to translate high-impact opportunities into scalable AI solutions. 
+ Evaluate emerging GenAI technologies, models, and frameworks, and influence enterprise AI strategy, governance, and roadmap. 
+ Lead performance optimization for latency, throughput, GPU utilization, inference cost, and reliability, while ensuring compliance with security, privacy, and responsible AI standards. 
+
+Academic Qualification
+
+ Bachelor’s or Master’s Graduation in Computer Science/Applied Statistics/Business/Relevant Field
+
+Job Experience Required
+
+ 7+ years of experience in AI/ML engineering, software engineering, distributed systems, and enterprise AI platforms, with proven experience building and deploying large-scale AI/GenAI systems in production environments
+
+Required Capabilities
+
+ Strong expertise in Python and backend engineering, with proven ability to architect distributed systems and operationalize production-scale GenAI applications. 
+ Strong hands-on experience with LLM application development, prompt engineering frameworks, RAG architectures, AI agents and tool-calling systems, semantic search and embeddings, AI evaluation and guardrails, hallucination mitigation, and context/memory management. 
+ Experience with GenAI frameworks and ecosystem tools such as LangChain, LlamaIndex, FastAPI, Docker, Kubernetes, MLflow, and CI/CD and DevOps workflows. 
+ Experience with AI infrastructure including GPU-based inference systems, open-source LLM deployment, fine-tuning techniques (LoRA/PEFT), vector databases, distributed AI workloads, and cloud-native architectures. 
+ Hands-on familiarity with major cloud platforms (Amazon Web Services, Google Cloud, Microsoft Azure). 
+ Experience leading technical teams or AI engineering squads, with exposure to AI governance, responsible AI, and enterprise compliance frameworks. 
+ Ability to think strategically while remaining hands-on technically, drive execution across multiple AI initiatives, and deliver with minimal supervision. 
+ Strong stakeholder influence, business communication, and presentation skills. Contributions to open-source projects, patents, conferences, or published research are highly valued.
