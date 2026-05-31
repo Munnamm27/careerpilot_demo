@@ -1,7 +1,7 @@
 ### Promt --> LLM --> Structured Output Response
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.messages import HumanMessage,SystemMessage
-from pydantic import BaseModel, Field, Dict
+from pydantic import BaseModel, Field
 from typing import List
 from langchain_openrouter import ChatOpenRouter
 from dotenv import load_dotenv
