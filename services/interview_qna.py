@@ -4,7 +4,10 @@ from langchain_core.messages import HumanMessage,SystemMessage
 from pydantic import BaseModel, Field, Dict
 from typing import List
 from langchain_openrouter import ChatOpenRouter
+from dotenv import load_dotenv
+import os
 
+load_dotenv()
 
 llm = ChatOpenRouter(
     model="openai/gpt-4o-mini",
@@ -104,3 +107,12 @@ Generate exactly {num_questions} interview questions.
     )
 
     return result.model_dump()
+
+
+if __name__ == "__main__":
+    from utils.doc_loader import resume_loader, text_loader
+    resume_text = resume_loader("docs/Mahmud_Hasan_Munna_BL.pdf")
+    jd_text = text_loader("docs/jd.txt")
+
+    interview_qna = generate_interview_qna(resume_text, jd_text, num_questions=10)
+    print(interview_qna)

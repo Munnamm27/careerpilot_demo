@@ -4,7 +4,10 @@ from langchain_core.messages import HumanMessage,SystemMessage
 from pydantic import BaseModel, Field
 from typing import List
 from langchain_openrouter import ChatOpenRouter
+from dotenv import load_dotenv
+import os
 
+load_dotenv()
 
 llm = ChatOpenRouter(
     model="openai/gpt-4o-mini",
@@ -56,3 +59,12 @@ def analyze_resume(resume_text, jd_text):
         }
     )
     return dict(result)
+
+
+if __name__ == "__main__":
+    from utils.doc_loader import resume_loader, text_loader
+    resume_text = resume_loader("docs/Mahmud_Hasan_Munna_BL.pdf")
+    jd_text = text_loader("docs/jd.txt")
+
+    analysis = analyze_resume(resume_text, jd_text)
+    print(analysis)
