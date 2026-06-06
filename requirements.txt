@@ -1,0 +1,7 @@
+streamlit
+pydantic
+langchain-core
+langchain-community
+langchain-openrouter
+python-dotenv
+pymupdf
